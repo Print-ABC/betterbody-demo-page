@@ -4,18 +4,22 @@ button {
   border-radius: 20px;
   box-shadow: 2px 0px 20px gray;
   color: white;
-  /* padding: 10px 20px; */
   text-align: center;
   font-size: 16px;
   font-weight: 900;
   text-transform: uppercase;
-  /* margin: 4px 2px; */
   cursor: pointer;
 }
 
 #navbarBtn {
   height: 30px;
-  /* float: left; */
-  /* font-size: 30px; */
   box-shadow: none;
+}
+
+#tryRadiancyBtn {
+  font-size: 20px;
+  box-shadow: 3px 4px 3px grey;
+  text-transform: capitalize;
+  margin: 32px 0px;
+  padding: 8px 40px;
 }

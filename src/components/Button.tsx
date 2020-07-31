@@ -1,14 +1,14 @@
 import React from "react"
-import "../css/Button.css"
 
 interface ButtonProps {
-  text?: string;
+  id?: string;
+  value?: string;
 }
 
 const Button: React.FC<ButtonProps> = (props) => {
-  const { text } = props;
+  const { id, value } = props;
 
-  return <button id="navbarBtn">{text}</button>;
+  return <button id={id}>{value}</button>;
 };
 
 export default Button;

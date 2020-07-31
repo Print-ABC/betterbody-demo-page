@@ -8,6 +8,7 @@ import ContentThree from "./components/content/ContentThree";
 import ContentFour from "./components/content/ContentFour";
 import ContentFive from "./components/content/ContentFive";
 import ContentSix from "./components/content/ContentSix";
+import ContentSeven from "./components/content/ContentSeven";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <ContentFour />
           <ContentFive />
           <ContentSix />
+          <ContentSeven />
         </ContentBlock>
       </Layout>
     </div>
