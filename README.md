@@ -1,3 +1,13 @@
+# Technical Interview Coding Assignment - [betterbody.co](https://betterbody.co/)
+
+Demo webpage created with TypeScript, React.JS, and CSS.
+
+To view webpage in browser (https://localhost:3000), run the project like so below:
+```
+cd betterbody-demo-page
+npm run
+```
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
