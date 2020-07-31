@@ -1,7 +1,7 @@
 import React from 'react'
 import NavBar from './NavBar'
 // import Footer from './Footer'
-import './common.css'
+import '../css/common.css'
 
 interface LayoutProps {
 //   className?: string
