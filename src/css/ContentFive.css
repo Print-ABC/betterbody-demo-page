@@ -1,0 +1,38 @@
+.contentFiveWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 80px;
+}
+
+.contentFiveWrapper div {
+  display: flex;
+}
+
+.contentFiveWrapper div div {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contentFiveWrapper div div p {
+  width: 300px;
+}
+
+.contentFiveWrapper img {
+  height: 250px;
+  margin: 16px 24px;
+}
+
+.contentFiveWrapper p {
+  width: 480px;
+  margin-bottom: 0px;
+  text-align: left;
+}
+
+@media (max-width: 719px) {
+  .contentFiveWrapper p {
+    width: 380px;
+    margin-bottom: 0px;
+    text-align: left;
+  }
+}
