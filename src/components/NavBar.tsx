@@ -1,7 +1,7 @@
-import React from "react";
-import "../css/NavBar.css";
-import "../css/Button.css";
-import mainSiteLogo from '../images/logo_mainsite.png';
+import React from "react"
+import "../css/NavBar.css"
+import "../css/Button.css"
+import mainSiteLogo from '../images/logo_mainsite.png'
 
 const NavBar: React.FC = (props) => {
 

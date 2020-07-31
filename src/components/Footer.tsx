@@ -1,8 +1,8 @@
-import React from "react";
-import "../css/Footer.css";
-import "../css/common.css";
-import mainSiteLogo from "../images/logo_mainsite.png";
-import { CONTACTS, GLOBAL_OFFICES, FOOTER_LINKS } from "./mocks";
+import React from "react"
+import "../css/Footer.css"
+import "../css/Common.css"
+import mainSiteLogo from "../images/logo_mainsite.png"
+import { CONTACTS, GLOBAL_OFFICES, FOOTER_LINKS } from "./mocks"
 
 const Footer: React.FC = (props) => {
   return (

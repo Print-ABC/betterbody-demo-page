@@ -1,0 +1,37 @@
+.contentOneWrapper p {
+  margin: 0px;
+}
+
+.contentOneWrapper img {
+  width: 200px;
+  height: 200px;
+}
+
+.contentOneWrapper {
+  display: grid;
+  grid-template-columns: 4fr 4fr 4fr;
+  margin-top: 20px;
+}
+
+@media (max-width: 719px) {
+  .contentOneWrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+.testimony {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testimony p {
+  width: 200px;
+  font-size: 14px;
+}
+
+.testimony p:nth-child(2) {
+  font-style: italic;
+  font-weight: 600;
+}

@@ -11,3 +11,7 @@ a {
   color: black;
   text-decoration: none;
 }
+
+.contentBlockWrapper {
+  margin: 0px 40px;
+}

@@ -1,12 +1,18 @@
-import React from 'react';
-import './css/App.css';
-import Layout from './components/Layout'; 
+import React from "react";
+import "./css/App.css";
+import Layout from "./components/Layout";
+import ContentBlock from "./components/ContentBlock";
+import ContentOne from "./components/content/ContentOne";
+import ContentTwo from "./components/content/ContentTwo";
 
 function App() {
   return (
     <div className="App">
       <Layout>
-        /* main content here */
+        <ContentBlock>
+          <ContentOne />
+          <ContentTwo />
+        </ContentBlock>
       </Layout>
     </div>
   );
