@@ -3,9 +3,7 @@ import "../css/NavBar.css";
 import "../css/Button.css";
 import mainSiteLogo from '../images/logo_mainsite.png';
 
-interface NavBarProps {}
-
-const NavBar: React.FC<NavBarProps> = (props) => {
+const NavBar: React.FC = (props) => {
 
   return (
     <div className="navBarWrapper">
