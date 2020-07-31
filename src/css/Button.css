@@ -23,3 +23,14 @@ button {
   margin: 32px 0px;
   padding: 8px 40px;
 }
+
+#seeRefBtn {
+  background-color: transparent;
+  font-weight: 400;
+  border: solid black 2px;
+  box-shadow: none;
+  color: gray;
+  text-transform: capitalize;
+  padding: 10px 20px;
+  margin-bottom: 30px;
+}
