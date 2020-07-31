@@ -1,29 +1,30 @@
-.contentTwoWrapper {
+.contentThreeWrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.contentTwoWrapper img {
+.contentThreeWrapper img {
   width: 580px;
-  height: 450px;
+  height: 200px;
   margin: 16px 0px;
 }
 
-.contentTwoWrapper p {
+.contentThreeWrapper p {
   width: 580px;
   margin-bottom: 0px;
   text-align: left;
 }
 
+
 @media (max-width: 719px) {
-  .contentTwoWrapper img {
+  .contentThreeWrapper img {
     width: 380px;
     height: 150px;
     margin: 16px 0px;
   }
 
-  .contentTwoWrapper p {
+  .contentThreeWrapper p {
     width: 380px;
     margin-bottom: 0px;
     text-align: left;

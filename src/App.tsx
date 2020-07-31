@@ -4,6 +4,8 @@ import Layout from "./components/Layout";
 import ContentBlock from "./components/ContentBlock";
 import ContentOne from "./components/content/ContentOne";
 import ContentTwo from "./components/content/ContentTwo";
+import ContentThree from "./components/content/ContentThree";
+import ContentFour from "./components/content/ContentFour";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
         <ContentBlock>
           <ContentOne />
           <ContentTwo />
+          <ContentThree />
+          <ContentFour />
         </ContentBlock>
       </Layout>
     </div>
