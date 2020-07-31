@@ -1,0 +1,35 @@
+.contentNineWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contentNineWrapper h1 {
+  margin: 16px 0px;
+}
+
+.contentNineWrapper div {
+  width: 800px;
+  height: 300px;
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+
+.contentNineWrapper div p {
+  width: 580px;
+  color: maroon;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+@media (max-width: 719px) {
+  .contentNineWrapper div p {
+    width: 380px;
+    color: maroon;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+}

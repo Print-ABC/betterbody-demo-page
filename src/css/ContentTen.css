@@ -1,0 +1,31 @@
+.contentTenWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contentTenWrapper img {
+  width: 580px;
+  height: 450px;
+  margin: 16px 0px;
+}
+
+.contentTenWrapper p {
+  width: 580px;
+  margin-bottom: 0px;
+  text-align: left;
+}
+
+@media (max-width: 719px) {
+  .contentTenWrapper img {
+    width: 380px;
+    height: 150px;
+    margin: 16px 0px;
+  }
+
+  .contentTenWrapper p {
+    width: 380px;
+    margin-bottom: 0px;
+    text-align: left;
+  }
+}
