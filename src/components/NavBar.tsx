@@ -2,8 +2,7 @@ import React from "react";
 import "./common.css";
 import "./NavBar.css";
 import "./Button.css";
-// import mainSiteLogo from '../../public/images/logo_mainsite.png';
-import mainSiteLogo from './logo_mainsite.png';
+import mainSiteLogo from '../images/logo_mainsite.png';
 
 interface NavBarProps {}
 
